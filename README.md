@@ -2,9 +2,10 @@
 #                LABORATORIO III – SISTEMAS EMBEBIDOS
 
 Autores:
-- Tomás Eduardo Conti - tomas.conti@estudiantes.utec.edu.uy
 - Pablo Kevin Pereira - pablo.pereira.p@estudiantes.utec.edu.uy
-Universidad Tecnológica del Uruguay – Ingeniería Mecatrónica
+- Tomás Eduardo Conti - tomas.conti@estudiantes.utec.edu.uy
+
+Universidad Tecnológica del Uruguay (UTEC) – Ingeniería Mecatrónica
 
 ## Resumen
 
