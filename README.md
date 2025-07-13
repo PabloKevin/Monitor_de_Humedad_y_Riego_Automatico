@@ -24,7 +24,7 @@ El sistema se diseñó dividiendo las funcionalidades en tareas concurrentes: ad
 ## Estructura del repositorio
     Lab1_Sistemas_Embebidos/  → Implementación enfocada en circuito electrónico y SysML
     Lab2_Sistemas_Embebidos/  → Medición de tiempos reales de tareas
-    Lab3_RTOS/                → Implementación de tareas con RTOS
+    Lab3_RTOS/                → Implementación de tareas con RTOS * Resultado Final *
     ├── .vscode/              → Configuraciones del entorno
     ├── build/                → Archivos generados
     ├── CMakeLists.txt        → Script principal del proyecto
