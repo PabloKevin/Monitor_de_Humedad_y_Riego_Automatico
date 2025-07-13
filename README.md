@@ -22,11 +22,12 @@ El sistema se diseñó dividiendo las funcionalidades en tareas concurrentes: ad
 - Framework de desarrollo: FreeRTOS (ESP-IDF)
 
 ## Estructura del repositorio
-    Lab1_Sistemas_Embebidos/  → Implementación enfocada en circuito electrónico y SysML
-    Lab2_Sistemas_Embebidos/  → Medición de tiempos reales de tareas
+    Lab1_Sistemas_Embebidos/  → Implementación y documentación enfocada en circuito electrónico y SysML
+    Lab2_Sistemas_Embebidos/  → Medición de tiempos reales de tareas, con documentación
     Lab3_RTOS/                → Implementación de tareas con RTOS * Resultado Final *
     ├── .vscode/              → Configuraciones del entorno
     ├── build/                → Archivos generados
+    ├── Documentation/        → Informe de laboratorio y video de funcionamiento
     ├── CMakeLists.txt        → Script principal del proyecto
     ├── sdkconfig             → Configuración global del sistema
     └── main/                 → Firmware principal y librerías
