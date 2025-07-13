@@ -17,12 +17,11 @@ El sistema se diseñó dividiendo las funcionalidades en tareas concurrentes: ad
 
 
 - Microcontrolador: ESP32-WROOM-32
-- Sistema operativo: GNU/Linux
+- Sistema operativo: GNU/Linux Ubuntu
 - Entorno de desarrollo: Visual Studio Code + ESP-IDF
 - Framework de desarrollo: FreeRTOS (ESP-IDF)
-- Comunicación: UART (consola serie, printf)
 
-## vEstructura del repositorio
+## Estructura del repositorio
 
 
 Lab3_RTOS/
@@ -38,10 +37,10 @@ Lab3_RTOS/
 
 ## Tareas FreeRTOS implementadas
 
-sensor_task (prioridad 7)     → Lee humedad cada 4 s
-switch_task (prioridad 6)     → Detecta pulsaciones de botones
-control_task (prioridad 5)    → Aplica lógica de riego
-lcd_task (prioridad 4)        → Refresca la LCD cada 3 s
+sensor_task (prioridad 7)     → Lee humedad cada determinado tiempo y guarda en registro
+switch_task (prioridad 6)     → Detecta pulsaciones de botones y ejecuta acciones correspondientes
+control_task (prioridad 5)    → Aplica lógica de riego con modos y tiemops
+lcd_task (prioridad 4)        → Refresca la LCD
 
 Todas se ejecutan sobre el core 0 (PRO CPU). El core 1 queda libre.
 
