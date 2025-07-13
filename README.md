@@ -22,18 +22,16 @@ El sistema se diseñó dividiendo las funcionalidades en tareas concurrentes: ad
 - Framework de desarrollo: FreeRTOS (ESP-IDF)
 
 ## Estructura del repositorio
-
-
-Lab3_RTOS/
-├── .vscode/              → Configuraciones del entorno
-├── build/                → Archivos generados
-├── CMakeLists.txt        → Script principal del proyecto
-├── sdkconfig             → Configuración global del sistema
-└── main/                 → Firmware principal y librerías
-    ├── CMakeLists.txt
-    ├── Lab3_main.cpp     → app_main(), tareas FreeRTOS
-    ├── LCD.hpp           → Declaraciones de interfaz LCD
-    └── LCD.cpp           → Implementación de LCD
+    Lab3_RTOS/
+    ├── .vscode/              → Configuraciones del entorno
+    ├── build/                → Archivos generados
+    ├── CMakeLists.txt        → Script principal del proyecto
+    ├── sdkconfig             → Configuración global del sistema
+    └── main/                 → Firmware principal y librerías
+        ├── CMakeLists.txt
+        ├── Lab3_main.cpp     → app_main(), tareas FreeRTOS
+        ├── LCD.hpp           → Declaraciones de interfaz LCD
+        └── LCD.cpp           → Implementación de LCD
 
 ## Tareas FreeRTOS implementadas
 
